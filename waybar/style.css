@@ -55,11 +55,37 @@ window#waybar {
 }
 
 #cpu {
-  color: #bb9af7;
+  color: #7dcfff;
 }
 
 #battery {
   color: #9ece6a;
+}
+
+#battery.charging,
+#battery.plugged {
+  color: #7dcfff;
+}
+
+#battery.good {
+  color: #9ece6a;
+}
+
+#battery.warning {
+  color: #e0af68;
+  font-weight: bold;
+}
+
+#battery.critical {
+  color: #f7768e;
+  font-weight: bold;
+  animation: blink 1s step-start 0s infinite;
+}
+
+@keyframes blink {
+  50% {
+    color: #1a1b26;
+  }
 }
 
 #disk {
