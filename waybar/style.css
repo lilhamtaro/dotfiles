@@ -51,11 +51,15 @@ window#waybar {
 }
 
 #pulseaudio {
-  color: #7aa2f7;
+  color: #7dcfff;
+}
+
+#disk {
+  color: #e0af68;
 }
 
 #cpu {
-  color: #7dcfff;
+  color: #7aa2f7;
 }
 
 #battery {
@@ -86,10 +90,6 @@ window#waybar {
   50% {
     color: #1a1b26;
   }
-}
-
-#disk {
-  color: #e0af68;
 }
 
 #clock,
