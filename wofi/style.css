@@ -1,0 +1,38 @@
+window {
+  background-color: rgba(26, 27, 38, 0.9);
+  color: #c0caf5;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  font-size: 14px;
+  border: 5px solid #7aa2f7;
+  border-radius: 12px;
+}
+
+#entry {
+  padding: 6px 10px;
+  margin: 2px 0;
+  border-radius: 6px;
+  min-height: 36px;
+}
+
+#entry:selected {
+  background-color: rgba(97, 175, 239, 0.25); /* Blue hover */
+  color: #ffffff;
+}
+
+#input {
+  background-color: rgba(40, 42, 54, 0.9);
+  color: #c0caf5;
+  border-radius: 4px;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  border: none;
+}
+
+#outer-box {
+  padding: 12px;
+}
+
+#scroll {
+  margin-top: 5px;
+}
+
